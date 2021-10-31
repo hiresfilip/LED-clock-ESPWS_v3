@@ -7,21 +7,21 @@
     <script type="text/javascript" src="./js/moment-with-locales.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.minicolors.css">
-    <title>7 Segment Clock</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ESPWS 8621 DC</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <a class="navbar-brand" href="./index.html">7 Segment Clock</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./index.html">ESPWS 8621 DC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white-50" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./datetime.html">Set Date/Time</a>
@@ -33,7 +33,7 @@
                     <a class="nav-link" href="./scoreboard.html">Scoreboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./temperature.html">Temperature</a>
+                    <a class="nav-link text-white" href="./temperature.html">Temperature</a>
                 </li>
         </div>
     </nav>
@@ -45,7 +45,7 @@
                 <div class="card-body">
 
                     <form>
-                       
+
                         <div class="form-row">
                             <label for="temperatureDisplay">Display &#176; C/F</label>
                             <select class="form-control" id="temperatureDisplay">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="form-row">
                             <label for="temperatureCorrection">Temperature correction</label>
-                            
+
                             <div class="input-group">
                                 <input type="text" class="form-control" value="-3" id="temperatureCorrection">
                                 <div class="input-group-append">
